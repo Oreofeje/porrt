@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+/* full background image */
+body{ 
+   background-color: #4b53e4;
+   color: #fff;
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+}
+
+body {
+  font-family: Lato, sans-serif, Arial, Helvetica;
+}
+
+p {
+  font-size: 18px;
+}
+
+
+.text {
+  text-align:justify; 
+  font-weight: bold;
+  position: relative;
+}
+
+/* text visibility and text centering  */
+.content-wrap {
+  height: inherit;
+  background: inherit;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font: 900 35vmin/50vh;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 1rem;
+}
+
+p .edu {
+  font-size: 50px;
+}
+
+
+
+#more {
+  display: none;
+}
+
+h3.text-center {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.mx-auto {
+  margin-left: auto !important;
+}
+
+.aboutme {
+  color: rgb(17, 5, 1);
+  text-align: center;
+  margin-top: 70px;
+}
+
+.vertical-line {
+  border-left: 4px solid #32d295;
+  height: 400px;
+
+}
+
+.row {
+  margin-top: 30px;
+}
+
+.img-box {
+  text-align: center;
+}
+
+.about-image {
+  /* same as .rounded-circle border-radius: 50%; */
+  margin: 5px 20px;
+  vertical-align: middle;
+}
+
+h4.jobTitle {
+  text-align: center;
+  color: #32d295;
+}
+
+.info {
+  margin: 0 auto;
+}
+
+.portfolio-header {
+  color: #32d295;
+  text-align: center;
+  margin: 70px 0;
+}
+
+.btn-color {
+  background-color: #d29a32;
+}
+
+.bg-grey{
+  background-color: rgb(219, 219, 219);
+  color: rgb(46, 46, 46);
+}
+
+
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+form input {
+  cursor: pointer;
+  padding: 8px 20px;
+  border: 2px solid #f3e40c;
+  border-radius: 5px;
+  background: #f3e40c;
+}
